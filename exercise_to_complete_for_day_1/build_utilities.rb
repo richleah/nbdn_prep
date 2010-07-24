@@ -103,7 +103,7 @@ class MSBuildRunner
 		compile_target = attributes.fetch(:compile_target, 'debug')
 	    solution_file = attributes[:solution_file]
 		
-		framework_dir = File.join(ENV['windir'].dup, 'Microsoft.NET', 'Framework', 'v3.5')
+		framework_dir = File.join(ENV['WINDIR'].dup, 'Microsoft.NET', 'Framework', 'v3.5')
 		msbuild_file = File.join(framework_dir, 'msbuild.exe')
 		
 		sh "#{msbuild_file} #{solution_file} /property:Configuration=#{compile_target} /t:Rebuild"
