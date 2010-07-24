@@ -1,0 +1,14 @@
+obj
+bin
+*.chm
+_[Rr]e[Ss]harper.*
+*.csproj.user
+*.[Rr]e[Ss]harper.user
+*.[Rr]e[Ss]harper
+*.suo
+*.cache
+*~
+*.sql
+*.swp
+*.swo
+artifacts
