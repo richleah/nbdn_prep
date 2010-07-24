@@ -11,4 +11,4 @@ _[Rr]e[Ss]harper.*
 *.sql
 *.swp
 *.swo
-artifacts/*.*
+artifacts
